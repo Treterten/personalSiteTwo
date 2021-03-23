@@ -3,11 +3,11 @@
   margin-bottom: 0;
 }
 .centerDiv {
-  margin: auto;
   display: grid;
   width: fit-content;
   grid-template-columns: auto 700px 50px;
   justify-items: center;
+  grid-column: 2 / 2;
 }
 .selfie {
   width: 433px;

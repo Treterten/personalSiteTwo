@@ -8,6 +8,10 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-rows: 69px auto 69px;
+  align-items: center;
+  justify-items: center;
 }
 h1 {
   font-size: 75px;
