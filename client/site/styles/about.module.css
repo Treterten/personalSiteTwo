@@ -1,0 +1,17 @@
+.firstContent {
+  width: 100%;
+  height: 1920px;
+}
+
+.secondContent {
+  width: 100%;
+  height: 1920px;
+  background-color: #101317;
+}
+.about {
+  display: flex;
+  width: fit-content;
+  justify-items: center;
+  flex-direction: column;
+  grid-column: 2 / 2;
+}

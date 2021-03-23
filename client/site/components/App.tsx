@@ -2,13 +2,14 @@ import React from 'react';
 import styles from '../styles/header.module.css';
 import Landing from './Landing';
 import Navbar from './Navbar';
+import About from './About';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const App = () => (
     <Router>
         <Navbar />
         <Switch>
             <Route path="/aboutme">
-                <p>Coming Soon</p>
+                <About />
             </Route>
             <Route path="/blog">
                 <p>Coming Soon</p>

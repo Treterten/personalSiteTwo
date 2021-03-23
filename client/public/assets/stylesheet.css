@@ -2,6 +2,7 @@ body {
   background-color: #0F0F0F;
   color: #DBDBDB;
   font-family: 'Nanum Gothic', sans-serif;
+  overflow: scroll;
 }
 #app {
   position: fixed;
