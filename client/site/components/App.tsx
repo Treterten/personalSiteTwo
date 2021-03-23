@@ -1,7 +1,8 @@
 import React from 'react';
-
+import styles from '../styles/header.module.css';
+import Landing from './Landing';
 const App = () => (
-  <h1>Hello World!</h1>
+    <Landing />
 )
 
 export default App;

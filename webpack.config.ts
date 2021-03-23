@@ -38,7 +38,7 @@ const config: webpack.Configuration = {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js', '.jsx'],
+    extensions: ['.tsx', '.ts', '.js', '.jsx', '.css'],
   },
   output: {
     path: path.resolve(__dirname, './client/public/'),
