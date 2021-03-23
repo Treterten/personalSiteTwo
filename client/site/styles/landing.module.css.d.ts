@@ -2,6 +2,9 @@ declare namespace LandingModuleCssNamespace {
   export interface ILandingModuleCss {
     centerDiv: string;
     heading: string;
+    projectsButton: string;
+    selfie: string;
+    textDiv: string;
   }
 }
 

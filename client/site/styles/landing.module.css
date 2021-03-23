@@ -1,7 +1,35 @@
 .heading {
   font-size: 3em;
+  margin-bottom: 0;
 }
 .centerDiv {
   margin: auto;
+  display: grid;
   width: fit-content;
+  grid-template-columns: auto 700px 50px;
+  justify-items: center;
+}
+.selfie {
+  width: 433px;
+  height: 433px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto 50px;
+}
+.textDiv {
+  text-align: center;
+}
+.projectsButton {
+  border: none;
+  color: #DBDBDB;
+  background-color: #2E9BE9;
+  width: 416px;
+  height: 69px;
+  border-radius: 50px;
+  font-size: 25px;
+  outline: none;
+}
+.projectsButton:hover {
+  background-color:#2a8bd1;
+  cursor: pointer;
 }
