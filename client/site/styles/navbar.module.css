@@ -17,8 +17,37 @@
   width: 8px;
   background-color: #2E9BE9;
   border-radius: 50%;
-  margin: 5px auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  top:47px;
+  right: 300px;
 }
+
+.selectorHome {
+  transition: 0.5s;
+  right: 300px;
+}
+
+.selectorAboutMe {
+  transition: 0.5s;
+  right: 220px;
+}
+
+.selectorBlog {
+  transition: 0.5s;
+  right: 146px;
+}
+
+.selectorProjects {
+  transition: 0.5s;
+  right: 81px;
+}
+
+
+
 .logo {
   height: 35px;
   width: 35px;

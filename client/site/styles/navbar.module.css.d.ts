@@ -3,6 +3,10 @@ declare namespace NavbarModuleCssNamespace {
     logo: string;
     navbar: string;
     selector: string;
+    selectorAboutMe: string;
+    selectorBlog: string;
+    selectorHome: string;
+    selectorProjects: string;
   }
 }
 
